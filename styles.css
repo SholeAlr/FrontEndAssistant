@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Oswald:wght@200..700&display=swap");
+* {
+  background-color: #f8f8f8;
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  width: 300px;
+  padding: 4px;
+  margin-top: 70px;
+}
+
+main > h1 {
+  text-align: center;
+  color: #ff9900;
+  position: fixed;
+  top: 0;
+  padding-top: 4px;
+  width: 100%;
+}
+
+#selector {
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  position: fixed;
+  top: 35px;
+  width: 100%;
+}
+
+#result > p {
+  font-size: 14px;
+  margin-top: 2px;
+  height: 20px;
+}
+
+#result > p:hover {
+  font-size: 18px;
+  background-color: #ff990062;
+  cursor: default;
+}
