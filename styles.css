@@ -40,7 +40,7 @@ main > h1 {
 #result > p {
   font-size: 14px;
   margin-top: 2px;
-  height: 20px;
+  height: 24px;
 }
 
 #result > p:hover {

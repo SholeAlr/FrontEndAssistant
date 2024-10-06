@@ -1,8 +1,8 @@
 {
-  "name": "Tailwind Assistant",
+  "name": "Tailwind Cheat Sheet",
   "version": "1.0",
   "manifest_version": 3,
-  "description": "Extension to convert styles to tailwind quickly",
+  "description": "Extension to show tailwind classes and their equivalent css styles",
   "action": {
     "default_icon": "icon.png",
     "default_popup": "index.html"
